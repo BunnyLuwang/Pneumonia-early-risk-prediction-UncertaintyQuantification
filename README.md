@@ -111,7 +111,7 @@ The model learns a continuous disease progression structure in latent space, sup
 
 ### Calibration (Temporal Model)
 
-![Calibration Temporal](images/calibration_temporal.png)
+![Calibration Temporal](Pneumonia-images/calibration_temporal.png)
 
 *Reliability diagram showing deviation from perfect calibration (ECE ≈ 0.15).*
 
@@ -119,7 +119,7 @@ The model learns a continuous disease progression structure in latent space, sup
 
 ### Latent State Space (PCA by Label)
 
-![PCA Label](images/pca_label.png)
+![PCA Label](Pneumonia-images/pca_label.png)
 
 *Latent embedding projection showing separation between early and future severe states.*
 
@@ -127,7 +127,7 @@ The model learns a continuous disease progression structure in latent space, sup
 
 ### Latent State Space (Risk Gradient)
 
-![PCA Risk](images/pca_risk.png)
+![PCA Risk](Pneumonia-images/pca_risk.png)
 
 *Smooth risk gradient across latent space, indicating a continuous progression structure.*
 
@@ -135,7 +135,7 @@ The model learns a continuous disease progression structure in latent space, sup
 
 ### Calibration (Phase 2 — Hard Task)
 
-![Calibration Phase 2](images/calibration_phase2.png)
+![Calibration Phase 2](Pneumonia-images/calibration_phase2.png)
 
 *Calibration degradation under increased task difficulty.*
 
