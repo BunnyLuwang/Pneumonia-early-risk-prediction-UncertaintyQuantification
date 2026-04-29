@@ -18,7 +18,7 @@ The project is structured in progressive phases, each increasing task difficulty
 
 ## Project Structure
 
-### Phase 1 — Baseline Severe Risk Prediction
+### Phase 1: Baseline Severe Risk Prediction
 - Task: Predict severe vs non-severe (including normal images)
 - Model: ResNet-based CNN  
 - Evaluation:
@@ -31,7 +31,7 @@ Uncertainty strongly correlates with prediction errors in simpler classification
 
 ---
 
-### Phase 2 — Pneumonia Severity Discrimination
+### Phase 2: Pneumonia Severity Discrimination
 - Task: Mild vs severe pneumonia (normal cases removed)  
 
 **Findings:**
@@ -44,13 +44,13 @@ Model reliability degrades as task difficulty increases.
 
 ---
 
-### Phase 3 — Reliability & Distribution Shift Analysis
+### Phase 3: Reliability & Distribution Shift Analysis (Divided in 3.1 & 3.2)
 
-#### Uncertainty Analysis
+#### 3.1 Uncertainty Analysis
 - Monte Carlo Dropout used for epistemic uncertainty  
 - Incorrect predictions exhibit higher uncertainty on average  
 
-#### Distribution Shift (Severity-Based)
+#### 3.2 Distribution Shift (Severity-Based)
 - Train: moderate severity  
 - Test: extreme severity  
 
@@ -63,7 +63,7 @@ Uncertainty is not consistently reliable under distribution shift.
 
 ---
 
-### Phase 4 — Temporal Early Progression Modeling
+### Phase 4: Temporal Early Progression Modeling
 
 Since real temporal data is unavailable, temporal structure is simulated:
 
