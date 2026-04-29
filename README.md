@@ -178,5 +178,4 @@ The model learns a continuous disease progression structure in latent space, sup
 
 ---
 
-## Author  
-Banesori Ayekpam
+Research Paper [In Review]
